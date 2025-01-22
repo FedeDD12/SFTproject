@@ -9,7 +9,7 @@ from peft import LoraConfig
 from datasets import Dataset
 from peft import get_peft_model
 
-from huggingface_hub.hf_api import HfFolder; HfFolder.save_token("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")
+from huggingface_hub.hf_api import HfFolder; HfFolder.save_token("")
 
 device_map={"":0}
 model_name="meta-llama/Meta-Llama-3.1-8B"
